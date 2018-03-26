@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-echo "Hola mundo" 
+read -p "Dime un número " num
 
-
-echo "Realizamos cambios en el fichero"
+echo "El número introducido es: " $num
 
